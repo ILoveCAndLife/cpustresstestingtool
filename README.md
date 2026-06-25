@@ -13,4 +13,4 @@ boost asio
 to compile:
 
 ```bash
-g++ stresstestforgithub.cpp -o stressapp
+g++ stresstestforgithub.cpp -o stressapp -lboost_system -pthread
